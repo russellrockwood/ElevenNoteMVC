@@ -120,7 +120,6 @@ namespace ElevenNote.WebMVC.Controllers
             service.DeleteNote(id);
             TempData["SaveResult"] = "Your note was deleted";
 
-
             return RedirectToAction("Index");
         }
 
