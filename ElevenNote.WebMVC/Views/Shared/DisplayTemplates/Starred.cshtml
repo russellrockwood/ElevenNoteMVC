@@ -1,13 +1,13 @@
-﻿@model bool
+﻿
+@{
+    ViewBag.Title = "Starred";
+}
+
+@model bool
 
 <span>
     <i class="glyphicon @(Model ? "glyphicon-star" : "glyphicon-star-empty")"
        data-toggle="star"
        data-id="@ViewBag.Id"></i>
 </span>
-@*@{
-    ViewBag.Title = "Starred";
-}
-
-<h2>Starred</h2>*@
 
